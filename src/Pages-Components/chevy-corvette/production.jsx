@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Production = () => {
   return (
     <div className="production">

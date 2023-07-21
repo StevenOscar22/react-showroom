@@ -1,7 +1,11 @@
+import React from 'react';
+
 const History = () => {
   return (
     <div className="history">
-      <h2>1967 Chevy Corvette Sting Ray (C2)'s History</h2>
+      <h2 className="font-bold">
+        1967 Chevy Corvette Sting Ray (C2)'s History
+      </h2>
       <p>
         The 1967 Corvette Sting Ray was the last Corvette of the second
         generation, and five years of refinements made it the best of the line.

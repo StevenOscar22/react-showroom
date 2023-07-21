@@ -1,5 +1,9 @@
+import React from 'react';
+
 import { useNavigate } from "react-router-dom";
+
 import './style/style-impala-sport.css'
+
 import Wave from "../../components/wave";
 import ContactUs from "../../components/our-contact";
 import Navbar from "../../components/navbar";

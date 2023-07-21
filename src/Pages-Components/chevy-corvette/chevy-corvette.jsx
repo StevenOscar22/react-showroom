@@ -1,18 +1,22 @@
+import React from 'react';
 import { useNavigate } from "react-router-dom";
 
 import "./style/style-chevy-corvette.css";
+
 import Wave from "../../components/wave";
 import ContactUs from "../../components/our-contact";
 import Navbar from "../../components/navbar";
 import History from "./history";
 import Technology from "./technology";
 import Production from "./production";
+import chevyVideoBg from '../../../assets/Studio_Project_V3.mp4'
 
 const Chevy = () => {
   const navigate = useNavigate();
 
   return (
     <>
+      <video src={chevyVideoBg} autoPlay loop muted className="foto-slider opacity-50" />
       <Wave />
       <ContactUs />
       <Navbar />

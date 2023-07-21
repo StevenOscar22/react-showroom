@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Wave = () => {
   return (
     <div className="ocean">
@@ -6,6 +8,6 @@ const Wave = () => {
       <div className="wave"></div>
     </div>
   );
-}
+};
 
 export default Wave;
